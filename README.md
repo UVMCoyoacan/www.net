@@ -1,1 +1,1 @@
-Pagina de cotizaciones de paginas WEB por medio de HTML.
+Pagina de cotizaciones para paginas WEB por medio de HTML.

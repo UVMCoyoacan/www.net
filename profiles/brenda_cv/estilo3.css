@@ -1,0 +1,52 @@
+body {
+    background-color: #315994; 
+}
+
+
+p{
+    color:rgb(126, 185, 152);
+    text-align: center;
+}
+
+h3 {
+    color:rgb(0, 0, 0);
+    text-align: center;
+}
+
+h1 {
+    color:rgb(0, 0, 0);
+    text-align: center;
+}
+
+h4 {
+    color:rgb(0, 0, 0);
+    text-align: center;
+}
+
+a {
+    color: rgb(195, 206, 95); 
+    text-decoration: none; 
+}
+
+a:hover {
+    color: red;
+}
+
+.boton {
+    text-align: center;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+/* Cambio de color al pasar el ratón sobre el botón */
+.boton:hover {
+    background-color: #45a049;
+}

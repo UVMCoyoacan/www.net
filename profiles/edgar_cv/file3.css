@@ -1,0 +1,42 @@
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    background-color: #111;
+    color: #fff;
+    margin: 0;
+    padding: 20px;
+}
+ 
+h1, h2, h3 {
+    color: #f00;
+    text-shadow: 2px 2px 4px #000;
+}
+ 
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+ 
+th, td {
+    border: 1px solid #0f0;
+    padding: 10px;
+    text-align: center;
+}
+ 
+th {
+    background-color: #00f;
+}
+ 
+a {
+    color: #0ff;
+    text-decoration: none;
+}
+ 
+p {
+    line-height: 1.6;
+}
+ 
+img {
+    max-width: 100%;
+    height: auto;
+}

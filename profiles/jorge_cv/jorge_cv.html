@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/favicon.png">
+    <title>Sitio oscuro</title>
+    <style>
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 15px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <h1>Curriculum</h1>
+    <p>Hola, mi nombre es Jorge. 👍</p>
+    <img src="img/doom_slayer.png" alt="doom_slayer" height="150">
+    <h2>¿Qué me gusta hacer?</h2>
+    <ul>
+        <li>Jugar videojuegos <img src="img/doom_cacodemon.png" alt="doom_cacodemon" height="30" align="center"></li>
+        <li>Ir al gimnasio 💪</li>
+        <li>Ver videos en YouTube <a href="https://www.youtube.com"><img src="img/youtube_logo.png" alt="youtube_logo" height="15" align="center"></a></li>
+    </ul>
+
+    <h2>Mis habilidades en desarrollo de Software</h2>
+    <table>
+        <tr>
+            <th>Lenguaje</th>
+            <th>Nivel de habilidad - 1/5 ⭐</th>
+        </tr>
+        <tr>
+            <td>Python</td>
+            <td>⭐⭐⭐⭐</td>
+        </tr>
+        <tr>
+            <td>c#</td>
+            <td>⭐⭐ (Aprendiendo)</td>
+        </tr>
+        <tr>
+            <td>c#/Azure</td>
+            <td>⭐ (Aprendiendo)</td>
+        </tr>
+        <tr>
+            <td>c#/asp.net</td>
+            <td>⭐ (Aprendiendo)</td>
+        </tr>
+    </table>
+
+    <h2>Proyectos personales</h2>
+    <p>El siguiente proyecto fue desarrollo en Python y está en Github</p>
+
+    <h1>Registro de Cliente</h1>
+    <form>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+        
+        <label for="numero">Número de teléfono:</label>
+        <input type="tel" id="numero" name="numero" pattern="[0-9]{10}" placeholder="Ej. 1234567890" required>
+        
+        <label for="correo">Correo electrónico:</label>
+        <input type="email" id="correo" name="correo" required>
+        
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+        
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>

@@ -1,0 +1,44 @@
+body {
+    font-family: 'Times New Roman', Times, serif; /* Cambia la fuente a Times New Roman */
+    color: #cccccc; /* Cambia el color del texto */
+    font-size: 16px; /* Cambia el tamaño de la fuente */
+}
+
+.container {
+    max-width: 700px; /* Reduce el ancho máximo del contenedor */
+    margin: 0 auto;
+    padding: 15px; /* Reduce el relleno */
+}
+
+a {
+    color: #99ccff; /* Cambia el color de los enlaces */
+    text-decoration: none; /* Elimina el subrayado de los enlaces */
+}
+
+ul {
+    list-style-type: circle; /* Cambia el tipo de viñetas de la lista */
+    padding: 5px; /* Reduce el relleno de la lista */
+}
+
+#imagen-container {
+    margin-top: 10px;
+    width: 100%;
+    height: 250px; /* Reduce la altura del contenedor de imagen */
+    background-color: rgba(0, 0, 0, 0.3); /* Reduce la opacidad del fondo */
+}
+
+/* Nuevos estilos */
+.container {
+    background-color: #333333; /* Cambia el color de fondo del contenedor */
+}
+
+h1 {
+    color: #ffcc00; /* Cambia el color del título */
+    font-size: 28px; /* Reduce el tamaño del título */
+    text-decoration: none; /* Elimina el subrayado del título */
+}
+
+ul li {
+    color: #ff9999; /* Cambia el color de los elementos de lista */
+    text-decoration: none; /* Elimina el subrayado de los elementos de lista */
+}

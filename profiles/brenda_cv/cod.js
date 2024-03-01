@@ -1,5 +1,5 @@
 function saludo() {
-    alert("Hola");
+    alert("CV de Brenda Hinojosa Torres");
 }
 
 saludo();
@@ -19,4 +19,6 @@ function cambiarEstilo(archivoCSS) {
     document.getElementById("estilo3").href = archivoCSS;
     console.log()
 }
+
+
 

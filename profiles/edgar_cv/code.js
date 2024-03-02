@@ -11,3 +11,11 @@ function fondoParrafo(){
     lsita[0].style="text-align:center; color=blue";
     document.getElementById("raro").innerHTML="CONTENIDO ACTUAL";
 }
+
+function cambiarEstilo(archivoCSS) {
+    document.getElementById("file1").href = archivoCSS;
+    document.getElementById("file2").href = archivoCSS;
+    document.getElementById("file3").href = archivoCSS;
+}
+
+

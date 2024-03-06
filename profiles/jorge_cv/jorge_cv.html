@@ -67,21 +67,15 @@
     <h2>Proyectos personales</h2>
     <p>El siguiente proyecto fue desarrollo en Python y está en Github</p>
 
-    <h1>Registro de Cliente</h1>
-    <form>
-        <label for="nombre">Nombre:</label>
-        <input type="text" id="nombre" name="nombre" required>
-        
-        <label for="numero">Número de teléfono:</label>
-        <input type="tel" id="numero" name="numero" pattern="[0-9]{10}" placeholder="Ej. 1234567890" required>
-        
-        <label for="correo">Correo electrónico:</label>
-        <input type="email" id="correo" name="correo" required>
-        
-        <label for="mensaje">Mensaje:</label>
-        <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
-        
-        <input type="submit" value="Enviar">
-    </form>
+    <button id="botonRegistro">"Déjame tus datos"</button>
+
+    <script>
+    var boton = document.getElementById("botonRegistro");
+    // Agregar un event listener para el clic en el botón
+    boton.addEventListener("click", function() {
+    // Redireccionar a formulario.html
+    window.location.href = "formulario.html";
+    });
+    </script>
 </body>
 </html>

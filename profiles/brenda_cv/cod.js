@@ -20,3 +20,9 @@ function cambiarEstilo(archivoCSS) {
     console.log()
 }
 
+var boton = document.getElementById("botonRegistro");
+    // Agregar un event listener para el clic en el botón
+    boton.addEventListener("click", function() {
+    // Redireccionar a formulario.html
+    window.location.href = "formulario.html";
+});

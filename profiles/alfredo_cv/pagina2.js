@@ -24,7 +24,10 @@ function cambiarEstilos(numeroEstilo) {
     document.getElementById(`stylesheet${numeroEstilo}`).disabled = false;
 }
 
-document.getElementById("botonRegistro").onclick = function() {
+var boton = document.getElementById("botonRegistro");
+    // Agregar un event listener para el clic en el botón
+    boton.addEventListener("click", function() {
+    // Redireccionar a formulario.html
     window.location.href = "formulario.html";
-};
+});
 

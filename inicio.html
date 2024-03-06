@@ -68,20 +68,16 @@
 
     <section id="equipo">
         <h2>Equipo</h2>
-        <p>Equipo que conforma la empresa de consultoria:</p>
-        <p>BRENDA HINOJOSA TORRES</P>
-        <p><img src="imagenes/brenda.jpg" width="300" height="200"></p>
-        <A HREF="profiles/brenda_cv/index.html">CV PERSONAL </A>
-        <p>EDGAR AUGUSTO MENDEZ LAZCANO</P>
-        <p><img src="imagenes/edgar.jpg" width="300" height="200"></p>
-        <A HREF="profiles/edgar_cv/index.html">CV PERSONAL </A>
-        <p>JOSE ALFREDO SANCHEZ ALVAREZ</P>
-        <p><img src="imagenes/jose.png" width="300" height="200"></p>
-        <A HREF="profiles/alfredo_cv/pagina2.html">CV PERSONAL </A>
-        <p>JORGE TIRADO URIZA</P>
-        <p><img src="imagenes/jorge.png" width="300" height="200"></p>
-        <a href="profiles/jorge_cv/jorge_cv.html">CV PERSONAL</a>
-        </section>
+        <p>Equipo que conforma la empresa de consultoría:</p>
+        <p>BRENDA HINOJOSA TORRES</p>
+        <p><img src="imagenes/brenda.jpg" width="300" height="200" data-href="profiles/brenda_cv/index.html"></p>
+        <p>EDGAR AUGUSTO MENDEZ LAZCANO</p>
+        <p><img src="imagenes/edgar.jpg" width="300" height="200" data-href="profiles/edgar_cv/index.html"></p>
+        <p>JOSE ALFREDO SANCHEZ ALVAREZ</p>
+        <p><img src="imagenes/jose.png" width="300" height="200" data-href="profiles/alfredo_cv/pagina2.html"></p>
+        <p>JORGE TIRADO URIZA</p>
+        <p><img src="imagenes/jorge.png" width="300" height="200" data-href="profiles/jorge_cv/jorge_cv.html"></p>
+    </section>
 
     <section id="contacto">
         <h2>Contacto</h2>
@@ -96,6 +92,16 @@
             <input type="submit" value="Enviar">
         </form>
     </section>
+
+    <script>
+        var imagenes = document.querySelectorAll("#equipo img");
+        imagenes.forEach(function(imagen) {
+            imagen.addEventListener("click", function() {
+                var url = this.getAttribute("data-href");
+                window.location.href = url;
+            });
+        });
+    </script>
     <footer>
         <p>&copy; 2024 Consultoría de Cotizaciones para Páginas Web</p>
     </footer>

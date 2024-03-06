@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <div id="formulario">
+        <h2>Formulario de Contacto</h2>
+        <form id="contactForm">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
+            <label for="gender">Género:</label>
+            <select id="gender" name="gender" required>
+                <option value="">Selecciona tu género</option>
+                <option value="male">Hombre</option>
+                <option value="female">Mujer</option>
+            </select>
+
+            <div id="formulario-color">
+                <h2>Formulario de Color Favorito</h2>
+                <label>
+                    <input type="checkbox" name="preferencias" value="musica"> Azul
+                </label>
+                <label>
+                    <input type="checkbox" name="preferencias" value="deportes"> Rojo
+                </label>
+                <label>
+                    <input type="checkbox" name="preferencias" value="lectura"> Verde
+                </label>
+                <label>
+                    <input type="checkbox" name="preferencias" value="viajes"> Morado
+                </label>
+            </div>
+
+            <div id="formulario-comida">
+                <h2>Formulario de Comida Favorita</h2>
+                <label>
+                    <input type="checkbox" name="preferencias" value="musica"> Pizza
+                </label>
+                <label>
+                    <input type="checkbox" name="preferencias" value="deportes"> Sushi
+                </label>
+                <label>
+                    <input type="checkbox" name="preferencias" value="lectura"> Hamburgueza
+                </label>
+                <label>
+                    <input type="checkbox" name="preferencias" value="viajes"> Tailandesa
+                </label>
+            </div>
+
+            <input type="submit" value="Enviar">
+            <a href="index.html" class="boton">Regresar</a>
+
+            <script src="script.js"></script>
+        </form>
+    </div>
+</html>

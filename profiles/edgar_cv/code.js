@@ -12,6 +12,15 @@ function fondoParrafo(){
     document.getElementById("raro").innerHTML="CONTENIDO ACTUAL";
 }
 
+function cambiarEstilo(archivoCSS) {
+    document.getElementById("file1").href = archivoCSS;
+    document.getElementById("file2").href = archivoCSS;
+    document.getElementById("file3").href = archivoCSS;
+}
+
+
+
+
 var boton = document.getElementById("botonRegistro");
     // Agregar un event listener para el clic en el botón
     boton.addEventListener("click", function() {

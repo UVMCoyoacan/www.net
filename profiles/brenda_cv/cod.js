@@ -1,5 +1,5 @@
 function saludo() {
-    alert("Hola");
+    alert("CV de Brenda Hinojosa Torres");
 }
 
 saludo();
